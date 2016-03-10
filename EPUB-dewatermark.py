@@ -4,11 +4,11 @@ import zipfile, sys, re, os, time, datetime
 filename=sys.argv[1]
 
 workplace='/tmp/'+filename+'/'
-output='/home/luca/'+filename+'.epub'
+output='/Users/luca/Desktop/'+filename.replace('.epub','_CLEAN.epub')
 fakedate=time.mktime(datetime.datetime.strptime("01/01/1970", "%d/%m/%Y").timetuple())
 
 #extracting .epub files
-f = open('uploads/'+sys.argv[1], 'rb')
+f = open(sys.argv[1], 'rb')
 fz = zipfile.ZipFile(f)
 for filename in fz.namelist():
     fz.extract(filename, workplace)
