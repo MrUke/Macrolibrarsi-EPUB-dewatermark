@@ -1,2 +1,2 @@
-# Macrolibrarsi-EPUB-dewatermark
-Rimuove il watermark dagli ebook EPUB acquistati su macrolibrarsi.it
+# Macrolibrarsi-dewatermark
+Rimuove il watermark dagli ebook acquistati su macrolibrarsi.it
